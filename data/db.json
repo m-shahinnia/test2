@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "Creat New Home Page",
+      "details": "lorem ipsum",
+      "complete": false
+    },
+    {
+      "id": "2",
+      "title": "Make Marketinm Email",
+      "details": "lorem ipsum",
+      "complete": true
+    }
+  ]
+}
