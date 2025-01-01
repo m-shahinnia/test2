@@ -3,9 +3,9 @@
     <div class="actions">
       <h3 @click="detailsVsiblati = !detailsVsiblati">{{ project.title }}</h3>
       <div class="icons">
-        <span class="material-icons">edit</span>
-        <span class="material-icons" @click="deleteIteam">delete</span>
-        <span class="material-icons tick" @click="toggleComplete">done</span>
+        <span class="material-icons mn">edit</span>
+        <span class="material-icons mn" @click="deleteIteam">delete</span>
+        <span class="material-icons tick mn" @click="toggleComplete">done</span>
       </div>
     </div>
     <div class="details" v-if="detailsVsiblati">
