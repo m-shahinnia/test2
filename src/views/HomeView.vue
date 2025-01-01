@@ -24,8 +24,8 @@ export default {
   mounted() {
     fetch("http://localhost:3000/projects")
       .then((res) => res.json())
-      .then((data) => (this.projects = data))
-      .catch((err) => console.log(err.message));
+      .then((data) => (this.projects = data));
+    console.log(data).catch((err) => console.log(err.message));
   },
   methods: {
     handleDelete(id) {
